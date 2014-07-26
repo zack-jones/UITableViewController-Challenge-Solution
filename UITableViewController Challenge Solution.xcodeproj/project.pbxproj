@@ -14,13 +14,13 @@
 		E94A20E9198437C600A37588 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E94A20E8198437C600A37588 /* main.m */; };
 		E94A20ED198437C600A37588 /* ZJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E94A20EC198437C600A37588 /* ZJAppDelegate.m */; };
 		E94A20F0198437C600A37588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94A20EE198437C600A37588 /* Main.storyboard */; };
-		E94A20F3198437C600A37588 /* ZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94A20F2198437C600A37588 /* ZJViewController.m */; };
 		E94A20F5198437C600A37588 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94A20F4198437C600A37588 /* Images.xcassets */; };
 		E94A20FC198437C600A37588 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94A20FB198437C600A37588 /* XCTest.framework */; };
 		E94A20FD198437C600A37588 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94A20DC198437C600A37588 /* Foundation.framework */; };
 		E94A20FE198437C600A37588 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94A20E0198437C600A37588 /* UIKit.framework */; };
 		E94A2106198437C600A37588 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E94A2104198437C600A37588 /* InfoPlist.strings */; };
 		E94A2108198437C600A37588 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E94A2107198437C600A37588 /* UITableViewController_Challenge_SolutionTests.m */; };
+		E94A21131984390E00A37588 /* ZJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94A21121984390E00A37588 /* ZJTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		E94A20EB198437C600A37588 /* ZJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJAppDelegate.h; sourceTree = "<group>"; };
 		E94A20EC198437C600A37588 /* ZJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAppDelegate.m; sourceTree = "<group>"; };
 		E94A20EF198437C600A37588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E94A20F1198437C600A37588 /* ZJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJViewController.h; sourceTree = "<group>"; };
-		E94A20F2198437C600A37588 /* ZJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJViewController.m; sourceTree = "<group>"; };
 		E94A20F4198437C600A37588 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E94A20FA198437C600A37588 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94A20FB198437C600A37588 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E94A2103198437C600A37588 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		E94A2105198437C600A37588 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E94A2107198437C600A37588 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		E94A21111984390E00A37588 /* ZJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTableViewController.h; sourceTree = "<group>"; };
+		E94A21121984390E00A37588 /* ZJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				E94A20EB198437C600A37588 /* ZJAppDelegate.h */,
 				E94A20EC198437C600A37588 /* ZJAppDelegate.m */,
 				E94A20EE198437C600A37588 /* Main.storyboard */,
-				E94A20F1198437C600A37588 /* ZJViewController.h */,
-				E94A20F2198437C600A37588 /* ZJViewController.m */,
+				E94A21111984390E00A37588 /* ZJTableViewController.h */,
+				E94A21121984390E00A37588 /* ZJTableViewController.m */,
 				E94A20F4198437C600A37588 /* Images.xcassets */,
 				E94A20E3198437C600A37588 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E94A20F3198437C600A37588 /* ZJViewController.m in Sources */,
 				E94A20ED198437C600A37588 /* ZJAppDelegate.m in Sources */,
+				E94A21131984390E00A37588 /* ZJTableViewController.m in Sources */,
 				E94A20E9198437C600A37588 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

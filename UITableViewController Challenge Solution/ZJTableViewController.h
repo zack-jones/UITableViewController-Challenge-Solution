@@ -1,5 +1,5 @@
 //
-//  ZJViewController.h
+//  ZJTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Zack Jones on 7/26/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZJViewController : UIViewController
+@interface ZJTableViewController : UITableViewController
 
 @end
